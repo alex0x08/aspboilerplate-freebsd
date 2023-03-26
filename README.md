@@ -1,3 +1,22 @@
+# Demo project
+So this is a demo project, generated with aspboilerplate and optimized to build & run under FreeBSD.
+
+Key changes were in database migration scripts - it was required to switch from MS SQL Server to PostgreSQL, but EF code generation had not worked well.
+Also I turned off HTTPS with self-signed certs, because it doesn't work too.
+
+It was created for my article:
+[How to code with .NET on FreeBSD](https://teletype.in/@alex0x08/dotnet-on-freebsd-yeee) (Russian only for now)
+
+# Демо проект
+Это демо проект, сгенерированный [aspnetboilerplate](https://aspnetboilerplate.com) и переделанный для сборки и запуска под FreeBSD.
+
+Основные изменения были в скриптах миграции данных, поскольку требовалось переключить проект с MS SQL Server на PostgreSQL, но механизм кодогенерации из моделей в EF не сработал.
+Также я отключил запуск HTTPS с самоподписанным сертификатом, поскольку он тоже нормально не работал.
+
+Сделан для статьи [Разработка на .NET под FreeBSD](https://teletype.in/@alex0x08/dotnet-on-freebsd-yeee)
+
+
+
 # Important
 
 Issues of this repository are tracked on https://github.com/aspnetboilerplate/aspnetboilerplate. Please create your issues on https://github.com/aspnetboilerplate/aspnetboilerplate/issues.
